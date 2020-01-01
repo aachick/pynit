@@ -2,8 +2,8 @@ import argparse
 import os
 import subprocess
 
-from licenses import LICENSES, create_license
-from setup_config import create_setup_file
+from .licenses import LICENSES, create_license
+from .setup_config import create_setup_file
 
 
 def parse_cli():
